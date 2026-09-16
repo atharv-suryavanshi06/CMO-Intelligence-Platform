@@ -2,10 +2,27 @@
 __pycache__/
 *.py[cod]
 
+# Python test, lint, type-check, coverage, and packaging artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.egg-info/
+build/
+
 # Local environments and generated runtime state
 venv/
 comparison_env/
 .env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
 .streamlit/
 runtime-data/
 user-data/
@@ -14,6 +31,24 @@ tenant-data/
 .migration-backup/
 node_modules/
 dist/
+
+# Local service data and logs
+presenton-data/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Local IDE, assistant, and operating-system files
+.vscode/
+.idea/
+.claude/*.local.*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows/system artifacts accidentally created under the project root
+%SystemDrive%/
 
 # User-provided source material is kept outside application artifacts.
 Data/
