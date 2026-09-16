@@ -1,0 +1,1 @@
+"""Word-document ingestion support."""

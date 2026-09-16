@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multimodal-rag"
+version = "0.1.0"
+description = "Layout-aware PDF retrieval-augmented generation pipeline"
+requires-python = ">=3.10"
+dependencies = ["python-docx>=1.1", "python-pptx>=1.0", "chromadb==1.0.20"]
+
+[tool.setuptools]
+packages = [
+    "multimodal_rag",
+    "multimodal_rag.cli",
+    "multimodal_rag.evaluation",
+    "multimodal_rag.rag",
+    "multimodal_rag.rag.embedding",
+    "multimodal_rag.rag.generation",
+    "multimodal_rag.rag.indexing",
+    "multimodal_rag.rag.retrieval",
+    "multimodal_rag.tools",
+    "multimodal_rag.tools.comparison",
+    "multimodal_rag.tools.diagnostics",
+    "multimodal_rag.ingestion",
+    "multimodal_rag.ingestion.analysis",
+    "multimodal_rag.ingestion.extractors",
+    "multimodal_rag.ingestion.loaders",
+    "multimodal_rag.ingestion.media",
+    "multimodal_rag.ingestion.output",
+    "multimodal_rag.ingestion.pipeline",
+    "multimodal_rag.ingestion.presentation",
+    "multimodal_rag.ingestion.processing",
+    "multimodal_rag.ingestion.routing",
+    "multimodal_rag.ingestion.word",
+    "multimodal_rag.agents",
+    "multimodal_rag.memory",
+    "multimodal_rag.api",
+    "multimodal_rag.security",
+    "multimodal_rag.web_search",
+    "multimodal_rag.web_search.providers",
+]
+
+[tool.setuptools.package-dir]
+"multimodal_rag" = "packages/rag-core/src/multimodal_rag"
+"multimodal_rag.agents" = "packages/agents/src/multimodal_rag/agents"
+"multimodal_rag.memory" = "packages/agents/src/multimodal_rag/memory"
+"multimodal_rag.api" = "services/api/src/multimodal_rag/api"
+"multimodal_rag.ingestion" = "packages/ingestion/src/multimodal_rag/ingestion"
+"multimodal_rag.security" = "packages/security/src/multimodal_rag/security"
+"multimodal_rag.web_search" = "packages/web-search/src/multimodal_rag/web_search"
+"multimodal_rag.cli" = "packages/rag-core/src/multimodal_rag/cli"
+"multimodal_rag.evaluation" = "packages/rag-core/src/multimodal_rag/evaluation"
+"multimodal_rag.rag" = "packages/rag-core/src/multimodal_rag/rag"
+"multimodal_rag.rag.embedding" = "packages/rag-core/src/multimodal_rag/rag/embedding"
+"multimodal_rag.rag.generation" = "packages/rag-core/src/multimodal_rag/rag/generation"
+"multimodal_rag.rag.indexing" = "packages/rag-core/src/multimodal_rag/rag/indexing"
+"multimodal_rag.rag.retrieval" = "packages/rag-core/src/multimodal_rag/rag/retrieval"
+"multimodal_rag.tools" = "packages/rag-core/src/multimodal_rag/tools"
+"multimodal_rag.tools.comparison" = "packages/rag-core/src/multimodal_rag/tools/comparison"
+"multimodal_rag.tools.diagnostics" = "packages/rag-core/src/multimodal_rag/tools/diagnostics"
+"multimodal_rag.ingestion.analysis" = "packages/ingestion/src/multimodal_rag/ingestion/analysis"
+"multimodal_rag.ingestion.extractors" = "packages/ingestion/src/multimodal_rag/ingestion/extractors"
+"multimodal_rag.ingestion.loaders" = "packages/ingestion/src/multimodal_rag/ingestion/loaders"
+"multimodal_rag.ingestion.media" = "packages/ingestion/src/multimodal_rag/ingestion/media"
+"multimodal_rag.ingestion.output" = "packages/ingestion/src/multimodal_rag/ingestion/output"
+"multimodal_rag.ingestion.pipeline" = "packages/ingestion/src/multimodal_rag/ingestion/pipeline"
+"multimodal_rag.ingestion.presentation" = "packages/ingestion/src/multimodal_rag/ingestion/presentation"
+"multimodal_rag.ingestion.processing" = "packages/ingestion/src/multimodal_rag/ingestion/processing"
+"multimodal_rag.ingestion.routing" = "packages/ingestion/src/multimodal_rag/ingestion/routing"
+"multimodal_rag.ingestion.word" = "packages/ingestion/src/multimodal_rag/ingestion/word"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

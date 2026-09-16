@@ -56,3 +56,13 @@ Before reporting completion:
 2. Update `docs/decisions.md` when a meaningful engineering decision was made.
 3. Update `docs/flow.md` when code or execution behavior was touched.
 4. Ensure documentation matches the final implementation, not the original plan.
+
+## Platform layout
+
+- `apps/frontend/` contains the React/Vite client and is the only maintained frontend.
+- `services/api/` contains the FastAPI launcher and API package.
+- `packages/agents/`, `packages/web-search/`, `packages/rag-core/`, `packages/ingestion/`, and `packages/security/` contain the coordinated Python components.
+- All component source roots contribute to the established `multimodal_rag.*` namespace package.
+- Runtime artifacts live under `runtime-data/`; user-provided source material remains under `Data/`.
+- The canonical virtual environment is `.venv`, and Python checks use `.venv\Scripts\python.exe`.
+- Do not modify protected runtime artifacts, credentials, or user source files during source changes.

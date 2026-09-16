@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "question": "What was the scope of the Bain and Meta Conversational Commerce Survey in India?",
+    "ground_truth": "The survey covered 7,800 users and 150 Indian businesses. It was conducted in October 2023 and included more than 25 senior executives from large and mid-market enterprises across CPR, BFSI, auto, and travel.",
+    "expected_source_file": "Win-With-Conversations-Report_2024.pdf",
+    "source_pages": [3],
+    "expected_chunk_ids": ["c_e946124135fb"],
+    "question_type": "factoid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "What was the sample and response rate for The CMO Survey 2025?",
+    "ground_truth": "The survey targeted 2,047 marketing leaders at U.S. for-profit companies. It received 281 responses, a 13.7% response rate, and 99% of respondents were VP-level or above.",
+    "expected_source_file": "The_CMO_Survey-Topline_Report-2025.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_1f55dac2d775"],
+    "question_type": "factoid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "According to the APAC Privacy Playbook, how can businesses unlock more first-party data?",
+    "ground_truth": "Businesses should build meaningful customer relationships and earn people's trust. They should strengthen responsibly gathered first-party data through clear communication about their data practices.",
+    "expected_source_file": "2023_Privacy_Playbook_for_privacy_and_performance_APAC.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_c3d4e2056e38", "c_70faa5aa37da"],
+    "question_type": "recommendation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "What must technology enable in an effective Marketing Operating Model (MOM)?",
+    "ground_truth": "Technology must enable efficient data collection, cross-functional collaboration, and test-and-learn agility. Together these capabilities underpin a Marketing Operating Model that drives continual growth.",
+    "expected_source_file": "Meet-your-new-MOM.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_30963ac2ce10"],
+    "question_type": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "Why is accurate media measurement critical for CMOs according to the media effectiveness guide?",
+    "ground_truth": "Accurate media measurement helps brands use marketing efficiently and effectively, understand which spend creates value, and outpace competitors in crowded markets by reaching customers with the right message, at the right time, through the right medium.",
+    "expected_source_file": "UPDATED_TwG_CMO_CFO_Media_Effectiveness_Guide.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_c8a389d00451"],
+    "question_type": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "question": "How does McKinsey define modern marketing?",
+    "ground_truth": "Modern marketing is the ability to harness the full capabilities of the business to provide the best experience for the customer and thereby drive growth.",
+    "expected_source_file": "modern-marketing-what-it-is-what-it-isnt.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_9e433320bf47"],
+    "question_type": "definition",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "What did the Q1 2025 Programmatic Transparency Benchmark find about effective impressions and the optimization gap?",
+    "ground_truth": "Participants directed 41% of their programmatic budgets to effective impressions, up from 36% in 2023. The TrueCPM Index found a 37.8% optimization gap, meaning more than a third of open-web ad spending still went to impressions that did not meet standard quality metrics.",
+    "expected_source_file": "ANAQ12025Programmatic.pdf",
+    "source_pages": [3],
+    "expected_chunk_ids": ["c_f8645afcf5fc"],
+    "question_type": "factoid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "question": "What operating model does the State of Marketing Europe report recommend for marketing ROI (MROI)?",
+    "ground_truth": "It recommends a centralized marketing measurement center of excellence that owns data and tools, sets measurement guidelines and KPIs, and acts as the organizational thought leader. Execution can be decentralized to data and analytics squads or channel teams, while all stakeholders need ongoing upskilling to use measurement insights.",
+    "expected_source_file": "state-of-marketing-europe-2026.pdf",
+    "source_pages": [34],
+    "expected_chunk_ids": ["c_3a9fa98d9de1"],
+    "question_type": "recommendation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "question": "How has AI use in marketing changed from 2024 to 2026, and what is projected for the next three years?",
+    "ground_truth": "AI use rose from 13.1% of marketing activities in 2024 to 24.2% in 2026. Companies project AI will account for 55.9% of marketing activities within three years; generative AI rose from 7.0% to 22.4% over the same period.",
+    "expected_source_file": "The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf",
+    "source_pages": [15],
+    "expected_chunk_ids": ["c_49750745b15f"],
+    "question_type": "factoid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "question": "What was the scope of the 2022 cross-media research on the short- and long-term impact of advertising?",
+    "ground_truth": "The research comprised five independent studies across more than five European countries and four categories, covering more than 3,500 Facebook and Instagram campaigns. It measured short- and long-term advertising ROI across channels including TV, Facebook and Instagram, online video, print, search, and outdoor where applicable.",
+    "expected_source_file": "The-short-and-long-term-impact-of-advertising.pptx.pdf",
+    "source_pages": [1],
+    "expected_chunk_ids": ["c_daf1f976f1aa"],
+    "question_type": "factoid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "question": "What does IAB State of Data 2025 say about AI scaling across media campaigns?",
+    "ground_truth": "Seventy percent of agencies, brands, and publishers are not yet fully integrating AI across media planning, activation, and analysis. Half of them expect to be fully scaled by 2026, creating differentiation between organizations that have widely adopted AI and those that have not.",
+    "expected_source_file": "IAB_State_of_Data_2025_March__V2.pdf",
+    "source_pages": [5],
+    "expected_chunk_ids": ["c_a5f71132ffc3"],
+    "question_type": "factoid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "question": "What ad-spend growth does the IAB 2025 Outlook Study project, and which channels lead digital growth?",
+    "ground_truth": "The study projects 7.3% year-over-year ad-spend growth in 2025, slower than the 11.8% increase in 2024. CTV, social media, and retail media lead growth, while linear TV is expected to decline because cyclical events are absent.",
+    "expected_source_file": "IAB_Outlook_-Study_January_16_2025_v2.pdf",
+    "source_pages": [4],
+    "expected_chunk_ids": ["c_ac034f8b5e9c"],
+    "question_type": "factoid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "question": "What is conversational commerce and which businesses are expected to drive much of it in India?",
+    "ground_truth": "Conversational commerce means driving purchases and transactions through conversational journeys, such as ride-hailing, loan disbursals, and grocery purchases. Large platforms will build chatbots and AI-assisted journeys, while organized and unorganized offline SMBs are expected to drive a significant share by using conversational platforms to leapfrog to digital commerce.",
+    "expected_source_file": "Win-With-Conversations-Report_2024.pdf",
+    "source_pages": [5],
+    "expected_chunk_ids": ["c_d64af8bcd85a"],
+    "question_type": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "question": "Why will service commerce accelerate user adoption of conversational commerce?",
+    "ground_truth": "Service journeys such as utility payments, travel, and ridesharing are inherently less complex than product transactions such as grocery purchases and online shopping, so they are expected to accelerate user adoption of conversational commerce.",
+    "expected_source_file": "Win-With-Conversations-Report_2024.pdf",
+    "source_pages": [5],
+    "expected_chunk_ids": ["c_d64af8bcd85a"],
+    "question_type": "explanation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "question": "When was The CMO Survey 2025 fielded?",
+    "ground_truth": "The 2025 CMO Survey was in the field from January 21 through February 12.",
+    "expected_source_file": "The_CMO_Survey-Topline_Report-2025.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_1f55dac2d775"],
+    "question_type": "factoid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "What types of companies and seniority levels were represented in The CMO Survey 2025?",
+    "ground_truth": "The survey targeted marketing leaders at U.S. for-profit companies, and 99% of respondents were VP-level or above.",
+    "expected_source_file": "The_CMO_Survey-Topline_Report-2025.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_1f55dac2d775"],
+    "question_type": "factoid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "How does the APAC Privacy Playbook say first-party data can improve conversion measurement?",
+    "ground_truth": "It recommends enabling first-party data for a more accurate view of how users convert, gaining insight across online and offline touchpoints, using machine learning and conversion modeling to interpret available signals, and using Consent Mode to improve modeled conversion measurement.",
+    "expected_source_file": "2023_Privacy_Playbook_for_privacy_and_performance_APAC.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_f63a2d7ff863"],
+    "question_type": "recommendation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "question": "What privacy change is creating measurement challenges for advertisers according to the APAC Privacy Playbook?",
+    "ground_truth": "People want more control over how their data is used, while the device IDs and third-party cookies advertisers relied on for decades are evolving. This makes it harder to reach audiences and measure results with the old techniques.",
+    "expected_source_file": "2023_Privacy_Playbook_for_privacy_and_performance_APAC.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_f63a2d7ff863"],
+    "question_type": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "question": "What financial impact did the Marketing Operating Model report describe for faster delivery of IT-dependent marketing functions?",
+    "ground_truth": "One global financial-services company generated an extra 25% of revenue, worth $100 million per year, by accelerating delivery of IT-dependent functions to marketing. Each week of delay in deploying an IT-developed capability was estimated to lose $2.8 million in incremental revenue.",
+    "expected_source_file": "Meet-your-new-MOM.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_30963ac2ce10"],
+    "question_type": "factoid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "question": "Why are privacy-preserving measurement solutions increasingly important for CMOs?",
+    "ground_truth": "Changing privacy preferences and regulations are limiting data collection and use. Combined with audiences spread across many platforms and devices, this makes complete media-consumption visibility, tracking, and attribution more difficult.",
+    "expected_source_file": "UPDATED_TwG_CMO_CFO_Media_Effectiveness_Guide.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_cdedac381d1d"],
+    "question_type": "explanation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "question": "What growth and cost outcomes does McKinsey estimate modern marketing can unlock?",
+    "ground_truth": "McKinsey estimates that changing how marketing operates can unlock 5% to 15% additional growth and trim 10% to 30% of marketing costs.",
+    "expected_source_file": "modern-marketing-what-it-is-what-it-isnt.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_9e433320bf47"],
+    "question_type": "factoid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "How does modern marketing change the way a marketing department operates?",
+    "ground_truth": "It requires marketing departments to be rewired for speed, collaboration, and customer focus. The emphasis is less on changing what marketing does and more on transforming how the work is done.",
+    "expected_source_file": "modern-marketing-what-it-is-what-it-isnt.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_9e433320bf47"],
+    "question_type": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "question": "What makes an ad impression effective in the Q1 2025 Programmatic Transparency Benchmark?",
+    "ground_truth": "An effective impression is delivered by a publisher that meets the participant's quality requirements. Standard quality metrics include being non-IVT, measurable for viewability, and viewable.",
+    "expected_source_file": "ANAQ12025Programmatic.pdf",
+    "source_pages": [3],
+    "expected_chunk_ids": ["c_f8645afcf5fc"],
+    "question_type": "definition",
+    "difficulty": "medium"
+  },
+  {
+    "id": 24,
+    "question": "What improvement drove the increase in effective programmatic impressions from 2023 to Q1 2025?",
+    "ground_truth": "The increase from 36% to 41% of programmatic budgets directed to effective impressions was largely driven by a decline in low-quality Made for Advertising (MFA) placements.",
+    "expected_source_file": "ANAQ12025Programmatic.pdf",
+    "source_pages": [3],
+    "expected_chunk_ids": ["c_f8645afcf5fc"],
+    "question_type": "explanation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "In the recommended MROI operating model, what do owners, doers, and users do?",
+    "ground_truth": "Owners are the centralized measurement center of excellence that owns data and tools, sets guidelines and KPIs, and leads organizational thinking. Doers execute measurement in analytics squads or channel teams. Users are stakeholders across the organization who need ongoing upskilling to use measurement insights in decisions.",
+    "expected_source_file": "state-of-marketing-europe-2026.pdf",
+    "source_pages": [34],
+    "expected_chunk_ids": ["c_3a9fa98d9de1"],
+    "question_type": "concept",
+    "difficulty": "hard"
+  },
+  {
+    "id": 26,
+    "question": "How is economic pessimism reshaping marketing priorities in The CMO Survey 2026?",
+    "ground_truth": "Nearly half of marketers are pulling back targeting to prioritize loyalty among existing customers rather than new customers or new geographic markets. Companies are allocating almost 60% of growth budgets to market-penetration strategies that sell more existing products and services to existing customers.",
+    "expected_source_file": "The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf",
+    "source_pages": [2],
+    "expected_chunk_ids": ["c_eab91a8834a3"],
+    "question_type": "explanation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 27,
+    "question": "Which marketing AI applications had the strongest adoption in The CMO Survey 2026?",
+    "ground_truth": "The leading applications were content creation at 73.9%, content personalization at 65.4%, automation at 48.9%, data analysis at 46.3%, and targeting at 45.2%. Generative Engine Optimization was already used by 41.5% of companies.",
+    "expected_source_file": "The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf",
+    "source_pages": [15],
+    "expected_chunk_ids": ["c_49750745b15f"],
+    "question_type": "factoid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "Which organizations conducted the 2022 cross-media advertising research and what did it measure?",
+    "ground_truth": "The independent research was conducted by Nielsen, Nepa, and GfK and commissioned by Meta. It measured the short- and long-term ROI of advertising across media channels.",
+    "expected_source_file": "The-short-and-long-term-impact-of-advertising.pptx.pdf",
+    "source_pages": [1],
+    "expected_chunk_ids": ["c_daf1f976f1aa"],
+    "question_type": "factoid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 29,
+    "question": "Who leads AI adoption in the IAB State of Data 2025 and what benefits do they report?",
+    "ground_truth": "Agencies and publishers lead AI adoption; nearly twice as many have fully scaled AI as brands. More than seven in ten say AI meets or exceeds expectations for reducing manual work, achieving AI goals, and delivering consistent performance.",
+    "expected_source_file": "IAB_State_of_Data_2025_March__V2.pdf",
+    "source_pages": [5],
+    "expected_chunk_ids": ["c_a5f71132ffc3"],
+    "question_type": "factoid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "What are buyers prioritizing in the IAB 2025 Outlook amid fragmentation and measurement challenges?",
+    "ground_truth": "Buyers are prioritizing customer acquisition and cross-platform solutions, along with optimizing reach and frequency and marketing-mix-modeling tactics. The study also says 80% of buyers are using or exploring generative AI tools for media planning and activation.",
+    "expected_source_file": "IAB_Outlook_-Study_January_16_2025_v2.pdf",
+    "source_pages": [4],
+    "expected_chunk_ids": ["c_ac034f8b5e9c"],
+    "question_type": "recommendation",
+    "difficulty": "hard"
+  }
+]

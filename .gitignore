@@ -1,3 +1,19 @@
 .venv/
 __pycache__/
 *.py[cod]
+
+# Local environments and generated runtime state
+venv/
+comparison_env/
+.env
+.streamlit/
+runtime-data/
+user-data/
+tenant-data/
+.codebase-memory/
+.migration-backup/
+node_modules/
+dist/
+
+# User-provided source material is kept outside application artifacts.
+Data/
